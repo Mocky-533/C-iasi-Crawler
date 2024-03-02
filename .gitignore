@@ -1,0 +1,7 @@
+test.*
+.vscode/
+assets/
+*.7z
+*.zip
+files/
+ciasi/
