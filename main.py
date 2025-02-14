@@ -110,7 +110,7 @@ def imageCrawl(urls: dict):
     return 1
 
 
-def insertImageSubfuncion(sht:xw.sheets, img_path: str, position: str):
+def insertImageSubfuncion(sht:xw.sheets, img_path: str, position: str): # type: ignore
     cell = sht.range(position)
     imgw, imgh = Image.open(img_path).size
     cellh, cellw = cell.height, cell.width
